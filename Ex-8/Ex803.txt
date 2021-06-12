@@ -1,0 +1,5 @@
+Ao escrever uma string em um arquivo devemos ter cuidado para não enviarmos o \0 para o arquivo,
+fazendo uso do comando strlen() para obter o tamanho que foi usado na string.
+
+Se o \0 estiver no arquivo indicando fim de string, devemos usar uma condição para que ele não
+seja gravado na variável que está recebendo a string.

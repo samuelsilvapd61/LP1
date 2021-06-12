@@ -1,0 +1,4 @@
+União discriminada é quando criamos um "union" dentro de uma "struct" e usamos um inteiro "sub" que servirá para
+armazenar um valor correspondente ao campo que será preenchido dentre os que estão no "union".
+Isto é importante, pois se não fosse feito isso, não conseguiríamos saber qual dos campos do "union" foi preenchido,
+ou seja, sería imposível fazer manipulações e cálculos sem saber o que foi armazenado.

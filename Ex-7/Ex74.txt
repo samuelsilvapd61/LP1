@@ -1,0 +1,9 @@
+No exercício 2, nós temos uma função que cria um outro personagem, lê seus dados e depois envia para os personagens "p1" e "p2".
+No exercício 3, a função recebe o endereço de "p1" e lê os dados para "p1" através do ponteiro "p", em seguida acontece o mesmo com "p2".
+
+A princípio eu prefiro a primeira abordagem, pois para mim parece ser mais confortável no momento de programar.
+
+Na primeira abordagem temos um uso de memória extra, já que é preciso criar um novo personagem, e além disso ele é retornado para os personagens 1 e 2.
+Na segunda abordagem temos um uso de memória mais eficiente, já que é preciso criar apenas um ponteiro.
+Em relação a velocidade, nesses dois exercícios, aparentemente não há diferença. Talvez em programas mais complexos, programas de empresas, isso seja algo
+mais relevante.

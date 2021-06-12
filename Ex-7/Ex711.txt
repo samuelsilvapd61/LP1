@@ -1,0 +1,8 @@
+"Struct" é usado para criar uma versão geral de algo, como uma pessoa, que possui RG, CPF, Nome, etc.
+Portanto ele serve para formarmos um conjunto de tipos de variáveis, de forma que possamos acessar e preencher os dados de
+uma variável que seja do tipo "struct Pessoa", por exemplo.
+
+
+"Union" é usado quando não se tem certeza de qual informação que será dada para determinada característica.
+Um lápis pode ser identificado por um código, nome da fabricante, ou quem sabe pela cor.
+Então, "union" serve para que possamos preencher apenas uma das possíveis variáveis criadas.
